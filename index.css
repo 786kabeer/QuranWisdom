@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+#main-nav{
+    height: 60px;
+    background-color:  #032b24;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+.logo-container{
+    background-image: url("Untitled_design-removebg-preview.png");
+    image-resolution: full;
+    background-size:cover;
+    width:210px;
+    height: 200px;
+    margin-left: 30px;
+    image-resolution: full;
+    margin-top: -70px;
+    
+}
+.box3{
+    display: flex;
+    flex-direction: row;
+    width: 445px;
+    height: 40px;
+    border: 2px solid transparent;
+    margin-top: 8px;
+    margin-left: 23px;
+    
+    
+}
+.box3:focus-within{
+    border: 3px solid #FEBD69;
+    border-radius: 8px;    
+}
+.nav-search{
+    width: 403px;
+    height: 40px;
+    border: 2px solid white;
+    outline: none;
+}
+
+
+.select-box{
+    width: 52px;
+    height: 40px;
+    color:#f5f5f5 ;
+    border: 2px solid #36454f;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #36454f;
+    outline: none;
+    
+}
+.search-icon{
+    background-color: #C94100;
+    width: 45px;
+    height: 27px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 13px;
+    
+}
+.Box-4{
+    display: flex;
+    flex-direction: row;   
+    width: 58px;
+    height: 14px;
+    padding: 12px;
+    margin-top: 9px;
+    border: 2px solid transparent;
+    margin-left: 410px;
+    
+}
+.Box-4:hover{
+    border: 2px solid white;
+    
+}
+.a1{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-right: 7px;
+    color: rgb(255, 255 , 255);
+    font-weight: 100;
+}
+.box5{
+    margin-left: 10px;
+}
+
+.b1{
+    background-color: #db4905;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+    border-radius: 6px;
+    width: 115px;
+    height: 33px;
+    margin-top: 13px;
+}
+.child-nav{
+    background-color: #AFEEEE;
+    height: 25px;
+}
